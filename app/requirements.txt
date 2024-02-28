@@ -1,0 +1,5 @@
+fastapi==0.70.0
+uvicorn==0.15.0
+sqlalchemy==1.4.30
+aiopg==1.1.0
+websockets==10.0
