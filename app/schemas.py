@@ -85,12 +85,13 @@ class Chat(ChatBase):
         from_attributes = True
 
 
+class ChatDelete(BaseModel):
+    chatsId: list
+
+
 class DataForCreateChat(BaseModel):
     message: Message
     chat: ChatBase
 
 
-
-
- 
 ################################################################################

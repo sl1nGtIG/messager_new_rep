@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, Body, Query, WebSocket, WebSocketDisconnect
 import json
+from typing import List
 from app.database import engine, SessionLocal
 from app import crud, models, schemas
 from app.websocket import ConnectionManager, MessageInChat
@@ -107,10 +108,15 @@ async def get_chats(
     offset_min, offset_max = await crud.pagination(page=page, size=size)
     filtered_data = await crud.get_chats(user_id=user_id)
     response = filtered_data[offset_min:offset_max]
-
-    print(f'response - {response}')
-    
     return {"ChatResponse": response}
+
+
+@app.delete("/chat_delete")
+async def delete_chats(chat_ids: List[str] = Body(...)):
+    delchats = await crud.del_chats(chat_ids)
+    if isinstance(delchats, dict) and "error" in delchats:
+        raise HTTPException(status_code=400, detail=delchats["error"])
+    return dict(status_code=200, message="Все чаты успешно удалены")
 
 
 ################################################################################
@@ -144,7 +150,7 @@ async def websocket_endpoint(websocket: WebSocket):
                 id_sender=message_data["id_sender"],
                 content=message_data["content"],
                 time=message_data["time"],
-                type=message_data["type"]
+                type=message_data["type"],
             )
 
             await crud.add_message(message_to_add)

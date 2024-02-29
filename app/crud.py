@@ -9,11 +9,12 @@ async def get_log_in_user(email: str, password: str):
         async with conn.cursor() as cursor:
             await cursor.execute("SELECT * FROM users")
             all_users = await cursor.fetchall()
-            
+
             for user in all_users:
                 if user[8] == email and user[9] == password:
                     return True
             return False
+
 
 # Post for User
 # fmt: on
@@ -96,9 +97,7 @@ async def update_user(data: schemas.UserUpdate, user_id: str):
     async with aiopg.connect(**config.db_params) as conn:
         async with conn.cursor() as cursor:
             # Проверяем существование user по его user_id
-            await cursor.execute(
-                "SELECT * FROM users WHERE user_id = %s", (user_id,)
-            )
+            await cursor.execute("SELECT * FROM users WHERE user_id = %s", (user_id,))
             existing_user = await cursor.fetchone()
             if not existing_user:
                 return {"error": "Пользователь не существует"}
@@ -117,11 +116,14 @@ async def update_user(data: schemas.UserUpdate, user_id: str):
 ############################## CRUD for message ################################
 # Post for Message
 
+
 async def add_message(message: schemas.MessageBase):
     async with aiopg.connect(**config.db_params) as conn:
         async with conn.cursor() as cursor:
 
-            await cursor.execute("SELECT * FROM chats WHERE chat_id = %s", (message.id_chat, ))
+            await cursor.execute(
+                "SELECT * FROM chats WHERE chat_id = %s", (message.id_chat,)
+            )
             chat_query = await cursor.fetchone()
 
             if not chat_query:
@@ -134,32 +136,34 @@ async def add_message(message: schemas.MessageBase):
                 "id_chat": message.id_chat,
                 "content": message.content,
                 "time": message.time,
-                "type": message.type
+                "type": message.type,
             }
             current_messages.append(new_message)
 
-            new_text = 'golosovoe' if message.type == 2 else message.content
-            print(f'new_text - {new_text}')
+            new_text = "Голосовое сообщение" if message.type == 2 else message.content
+            # print(f'new_text - {new_text}')
 
             await cursor.execute(
                 "UPDATE chats SET messages = %s, mes_text = %s, mes_time = %s WHERE chat_id = %s",
-                (json.dumps(current_messages), new_text, message.time, message.id_chat)
+                (json.dumps(current_messages), new_text, message.time, message.id_chat),
             )
             return {"message": "Сообщение успешно добавлено"}
 
 
 # Get for Messages
 
+
 async def get_messages(chat_id):
     async with aiopg.connect(**config.db_params) as conn:
         async with conn.cursor() as cursor:
-            await cursor.execute("SELECT * FROM chats WHERE chat_id = %s", (chat_id, ))
+            await cursor.execute("SELECT * FROM chats WHERE chat_id = %s", (chat_id,))
             entry = await cursor.fetchone()
             messages = entry[3] if entry else []
             return messages[::-1]
 
 
 ################################################################################
+
 
 ############################### CRUD for chat ##################################
 # post for Chat
@@ -177,18 +181,15 @@ async def create_chat(data: schemas.ChatCreate):
             await cursor.execute(
                 "INSERT INTO chats (chat_id, user_id_1, user_id_2, messages, mes_text, mes_time) \
                     VALUES (%s, %s, %s, %s, %s, %s)",
-                (
-                    data.chat_id,
-                    data.user_id_1,
-                    data.user_id_2,
-                    json.dumps([]),
-                    '',
-                    0
-                ),
+                (data.chat_id, data.user_id_1, data.user_id_2, json.dumps([]), "", 0),
             )
             # добавляем chat_id в список всех чатов для пользователя
-            await add_another_users_id(user_id=data.user_id_1, another_id=data.user_id_2)
-            await add_another_users_id(user_id=data.user_id_2, another_id=data.user_id_1)
+            await add_another_users_id(
+                user_id=data.user_id_1, another_id=data.user_id_2
+            )
+            await add_another_users_id(
+                user_id=data.user_id_2, another_id=data.user_id_1
+            )
 
 
 # Get for Chat
@@ -223,8 +224,8 @@ def chat_construct(user_data, chat_id, user_id_1, user_id_2, messages):
         chat_id=chat_id,
         user_id_1=user_id_1,
         user_id_2=user_id_2,
-        mes_text=messages[-1]['content'],
-        mes_time=messages[-1]['time'],
+        mes_text=messages[-1]["content"],
+        mes_time=messages[-1]["time"],
         nickname=nickname,
         avatar=avatar,
     )
@@ -237,14 +238,12 @@ async def get_chats(user_id: str):
             # предполагаем что заправшиваемый user имеет id_1 (в рамках чата)
             await cursor.execute("SELECT * FROM chats WHERE user_id_1 = %s", (user_id,))
             chats_db_1 = await cursor.fetchall()
-            
+
             if chats_db_1:
 
                 response = []
                 for chat in chats_db_1:
-                    chat_id, user_id_1, user_id_2, messages = elem_of_chats_db(
-                        chat
-                    )
+                    chat_id, user_id_1, user_id_2, messages = elem_of_chats_db(chat)
                     # получаем информацию от второго usera
                     await cursor.execute(
                         "SELECT * FROM users WHERE user_id = %s", (user_id_2,)
@@ -262,14 +261,14 @@ async def get_chats(user_id: str):
                     return response
             else:
                 # запрашиваемый user имеет id_2 (в рамках чата)
-                await cursor.execute("SELECT * FROM chats WHERE user_id_2 = %s", (user_id,))
+                await cursor.execute(
+                    "SELECT * FROM chats WHERE user_id_2 = %s", (user_id,)
+                )
                 chats_db_2 = await cursor.fetchall()
 
                 response = []
                 for chat in chats_db_2:
-                    chat_id, user_id_1, user_id_2, messages = elem_of_chats_db(
-                        chat
-                    )
+                    chat_id, user_id_1, user_id_2, messages = elem_of_chats_db(chat)
 
                     # получаем информацию от второго usera
                     await cursor.execute(
@@ -283,8 +282,101 @@ async def get_chats(user_id: str):
                         response.append(chat_to_get.__dict__)
                     else:
                         return {"error": "второй пользователь не найден"}
-                if response: return response
+                if response:
+                    return response
                 return []
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+async def del_chats(data):
+    async with aiopg.connect(**config.db_params) as conn:
+        async with conn.cursor() as cursor:
+
+            for chat_id in data:
+                # получаем user_id_1 и user_id_2 из чата перед его удалением
+                await cursor.execute(
+                    "SELECT * FROM chats WHERE chat_id = %s", (chat_id,)
+                )
+                chat = await cursor.fetchone()
+                user_id_1 = chat[1]; user_id_2 = chat[2]
+
+                # удаление чата
+                await cursor.execute("DELETE FROM chats WHERE chat_id = %s", (chat_id,))
+                if cursor.rowcount == 0:
+                    return {"error": "один из чатов не был найден"}
+
+                # удаляем user_id второго для 1 пользователя
+                await cursor.execute(
+                    "SELECT * FROM anotherusers WHERE user_id = %s", (user_id_1,)
+                )
+                user1 = await cursor.fetchone()
+                ids_for_user1 = user1[1]
+                ids_for_user1.remove(user_id_2)
+
+                await cursor.execute(
+                    "UPDATE anotherusers SET another_users_id = %s WHERE user_id = %s",
+                    (json.dumps(ids_for_user1), user_id_1),
+                )
+
+                # удаляем user_id первого для 2 пользователя
+                await cursor.execute(
+                    "SELECT * FROM anotherusers WHERE user_id = %s", (user_id_2,)
+                )
+                user2 = await cursor.fetchone()
+                ids_for_user2 = user2[1]
+                ids_for_user2.remove(user_id_1)
+
+                await cursor.execute(
+                    "UPDATE anotherusers SET another_users_id = %s WHERE user_id = %s",
+                    (json.dumps(ids_for_user2), user_id_2),
+                )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ################################################################################
@@ -292,11 +384,14 @@ async def get_chats(user_id: str):
 ################################################################################
 # Anotherusers
 
+
 async def add_another_users_id(user_id: str, another_id: str):
     async with aiopg.connect(**config.db_params) as conn:
         async with conn.cursor() as cursor:
             # Проверяем, существует ли запись с данным user_id
-            await cursor.execute("SELECT * FROM anotherusers WHERE user_id = %s", (user_id,))
+            await cursor.execute(
+                "SELECT * FROM anotherusers WHERE user_id = %s", (user_id,)
+            )
             existing_entry = await cursor.fetchone()
             if existing_entry:
                 # Проверяем, есть ли указанный another_id в списке
@@ -313,7 +408,8 @@ async def add_another_users_id(user_id: str, another_id: str):
                 new_another_id = []
                 new_another_id.append(another_id)
                 await cursor.execute(
-                    "INSERT INTO anotherusers (user_id, another_users_id) VALUES (%s, %s)", (
+                    "INSERT INTO anotherusers (user_id, another_users_id) VALUES (%s, %s)",
+                    (
                         user_id,
                         json.dumps(new_another_id),
                     ),
@@ -345,19 +441,20 @@ async def get_choose_user(user_id: str):
             for user in all_users:
                 if user[0] not in another_users_id:
                     get_user = usersForChoose(
-                        id=user[0],
-                        foto=user[7],
-                        nickname=user[1]+user[2]
+                        id=user[0], foto=user[7], nickname=user[1] + user[2]
                     )
                     result.append(get_user.__dict__)
             return {"UsersForNewChatResponse": result}
 
+
 ################################################################################
-        
+
+
 async def pagination(page: int, size: int) -> list:
     corrected_page = page - 1 if page > 0 else 0
     offset_min = corrected_page * size
     offset_max = (corrected_page + 1) * size
     return offset_min, offset_max
+
 
 ################################################################################
