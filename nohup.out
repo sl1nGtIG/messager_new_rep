@@ -1,0 +1,1930 @@
+INFO:     Will watch for changes in these directories: ['/root/messager']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [3601] using statreload
+INFO:     Started server process [3603]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     213.87.148.225:15128 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ewqqe', 'mes_time': 1709107405514, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:15128 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:15128 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 9328) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:17534 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ewqqe', 'mes_time': 1709107405514, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:17534 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:17534 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 28083) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:59032 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 37514) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:59032 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:5901 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:5901 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:5901 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 52895) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:19812 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:19812 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:19812 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 35255) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:7493 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:7493 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:7493 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 36597) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:10061 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:23211 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:23211 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 26293) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:44226 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 22444) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:44226 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:48733 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709111330478, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:48733 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:48733 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 21786) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709112290403, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:61621 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:61621 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 64722) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:61679 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709112290403, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:61679 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:61679 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 56839) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:19861 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709112379297, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:19861 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:19861 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 47773) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:29328 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709112653765, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:29328 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:29328 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 30474) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:7641 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.225:45237 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709113746033, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:45237 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:45237 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 9746) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709113845512, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:34936 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:34936 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.225:40298 - "PUT /update_user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709113845512, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:37836 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:37836 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.148.225:52501 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '7c2229b0-8cea-4af6-b921-760363f6d116', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709113845512, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:52501 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:52501 - "GET /get_messages/7c2229b0-8cea-4af6-b921-760363f6d116?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 18762) - "WebSocket /ws/7c2229b0-8cea-4af6-b921-760363f6d116" [accepted]
+INFO:     connection open
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3603]
+INFO:     Stopping reloader process [3601]
+INFO:     Will watch for changes in these directories: ['/root/messager']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [11294] using statreload
+INFO:     Started server process [11296]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     109.62.193.35:26178 - "GET /docs/ HTTP/1.1" 307 Temporary Redirect
+INFO:     109.62.193.35:26179 - "GET /docs HTTP/1.1" 200 OK
+INFO:     109.62.193.35:26179 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     213.87.148.225:21688 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - []
+INFO:     213.87.148.225:21688 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+response - []
+INFO:     213.87.148.225:56689 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:21688 - "GET /user_for_choose/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     213.87.148.225:5541 - "GET /user_for_choose/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.225:2096 - "POST /post_chat HTTP/1.1" 200 OK
+INFO:     213.87.148.225:47436 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'Ааа', 'mes_time': 1709114712063, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:47436 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:45819 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'Ааа', 'mes_time': 1709114712063, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:45819 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:45819 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 32717) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:28439 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 46525) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:6688 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.148.225:38356 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:38356 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:38356 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 23739) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:4280 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:50313 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:50313 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 18559) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:34178 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:34178 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:34178 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 54660) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:21790 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:21790 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:21790 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 55046) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:34095 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:3002 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:3002 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 26737) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     ('213.87.148.225', 11058) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:12615 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:12615 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:12615 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 61136) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:11936 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:11936 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:11936 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 64756) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:57841 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:57841 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:57841 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 20053) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:8051 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:8051 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:8051 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 31679) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:26598 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:5311 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:5311 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 51144) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:52561 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:40573 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:40573 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 50555) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.225:24197 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     109.62.193.35:28560 - "GET /docs/ HTTP/1.1" 307 Temporary Redirect
+INFO:     109.62.193.35:28561 - "GET /docs HTTP/1.1" 200 OK
+INFO:     109.62.193.35:28561 - "GET /openapi.json HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'ddggdfh', 'mes_time': 1709114745019, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:24197 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:24197 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 36221) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709118006081, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:48389 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 1256) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:48389 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709118006081, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:23216 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:23216 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 40468) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709118006081, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:38051 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:38051 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 1700) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709118006081, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:37188 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:12469 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': '70db3d07-f3c0-41a3-abf0-fc87270761e6', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'голосовое сообщение', 'mes_time': 1709118006081, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:12469 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:12469 - "GET /get_messages/70db3d07-f3c0-41a3-abf0-fc87270761e6?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 46547) - "WebSocket /ws/70db3d07-f3c0-41a3-abf0-fc87270761e6" [accepted]
+INFO:     connection open
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     connection closed
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11296]
+INFO:     Started server process [18342]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18342]
+INFO:     Started server process [18348]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18348]
+INFO:     Started server process [18450]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18450]
+INFO:     Started server process [18458]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18458]
+INFO:     Started server process [18463]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18463]
+INFO:     Started server process [18476]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18476]
+INFO:     Started server process [18486]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18486]
+INFO:     Started server process [18491]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18491]
+INFO:     Started server process [18497]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18497]
+INFO:     Started server process [18499]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18499]
+Process SpawnProcess-12:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/subprocess.py", line 76, in subprocess_started
+    target(sockets=sockets)
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 68, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/server.py", line 76, in serve
+    config.load()
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/config.py", line 448, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/importer.py", line 21, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/root/messager/./app/main.py", line 4, in <module>
+    from app import crud, models, schemas
+  File "/root/messager/./app/crud.py", line 143
+    (json.dumps(current_messages), ,message.id_chat)
+                                   ^
+SyntaxError: invalid syntax
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Started server process [18510]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18510]
+INFO:     Started server process [18519]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18519]
+INFO:     Started server process [18532]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18532]
+INFO:     Started server process [18544]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected file change in 'app/crud.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18544]
+INFO:     Started server process [18549]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18549]
+INFO:     Stopping reloader process [11294]
+INFO:     Will watch for changes in these directories: ['/root/messager']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [1997] using statreload
+INFO:     Started server process [1999]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_f58aa7a9-f091-4075-9196-0bba21dd9ccf.3gp', 'mes_time': 1709121070711, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:23929 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:23929 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:3196 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:64525 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_f58aa7a9-f091-4075-9196-0bba21dd9ccf.3gp', 'mes_time': 1709121070711, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:64525 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:64525 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 15796) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:65265 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_f58aa7a9-f091-4075-9196-0bba21dd9ccf.3gp', 'mes_time': 1709121070711, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:27010 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:27010 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 59769) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - qweqweqwqttt
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:24818 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 7533) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:24818 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:24818 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 6808) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:24818 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:24818 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 27959) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:24818 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 82, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("no request line received")
+h11._util.RemoteProtocolError: no request line received
+INFO:     204.93.154.212:37268 - "GET / HTTP/1.0" 404 Not Found
+INFO:     204.93.154.212:42185 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     204.93.154.212:43103 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS / RTSP/1.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS sip:nm SIP/2.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     213.87.148.225:1262 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:36135 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:36135 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     213.87.148.225:61856 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:47116 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:53710 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:53710 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:28529 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     213.87.148.225:14979 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 17221) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:42793 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:10312 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'qweqweqwqttt', 'mes_time': 1709121300334, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:10312 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 31880) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:10550 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 49138) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:36084 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_4675731a-458d-483f-9d5b-6769fc16d523.3gp', 'mes_time': 1709125637065, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:35586 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 61330) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:35586 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_4675731a-458d-483f-9d5b-6769fc16d523.3gp', 'mes_time': 1709125637065, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:14675 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_4675731a-458d-483f-9d5b-6769fc16d523.3gp', 'mes_time': 1709125637065, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:19636 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:11217 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:60413 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_4675731a-458d-483f-9d5b-6769fc16d523.3gp', 'mes_time': 1709125637065, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:24440 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_4675731a-458d-483f-9d5b-6769fc16d523.3gp', 'mes_time': 1709125637065, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:60413 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:24440 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 63378) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:18627 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 11263) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_2a8836b0-043d-4514-96af-ce4414a84a2b.3gp', 'mes_time': 1709126309648, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:64820 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:64820 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 60509) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_2a8836b0-043d-4514-96af-ce4414a84a2b.3gp', 'mes_time': 1709126309648, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:23547 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:23547 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 45874) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - 123123
+new_text - 111
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:18107 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 43950) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.148.225:18107 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.148.225:34024 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:34024 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 27470) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.148.225:50075 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:50075 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.225:28252 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.225', 24492) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.225:49400 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     185.180.143.11:51592 - "GET / HTTP/1.1" 404 Not Found
+INFO:     185.180.143.11:37390 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+INFO:     185.180.143.11:37416 - "GET /admin/ HTTP/1.1" 404 Not Found
+INFO:     185.180.143.11:37428 - "GET / HTTP/1.1" 404 Not Found
+INFO:     213.87.148.246:8771 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:8771 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:8771 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.246', 46392) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     connection closed
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 82, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("no request line received")
+h11._util.RemoteProtocolError: no request line received
+INFO:     204.93.154.212:49396 - "GET / HTTP/1.0" 404 Not Found
+INFO:     204.93.154.212:55340 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     204.93.154.212:56494 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS / RTSP/1.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS sip:nm SIP/2.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     94.156.71.232:40846 - "CONNECT 45.61.137.126%3A7227 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     152.32.228.20:39938 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.32.228.20:59042 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.32.228.20:59054 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     152.32.228.20:59066 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     194.48.250.133:1774 - "CONNECT 193.149.189.126%3A7227 HTTP/1.1" 404 Not Found
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:16082 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:16082 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:34735 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:34735 - "GET /user_for_choose/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.246:34735 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.246:58049 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:22313 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:22313 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.246', 45661) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:12649 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.148.246:47148 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:47148 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:47148 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.246', 35881) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.148.246:6470 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:42836 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:42836 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.246', 61317) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:19501 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     205.210.31.249:65130 - "GET / HTTP/1.1" 404 Not Found
+INFO:     connection closed
+INFO:     213.87.148.246:22924 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:22924 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:22924 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.148.246', 6475) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:16952 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     47.243.90.138:60766 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     connection closed
+INFO:     213.87.148.246:55795 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:7314 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:7314 - "GET /user_for_choose/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.246:7314 - "GET /user_for_choose/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.246:31826 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:31826 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:31826 - "GET /user_for_choose/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.246:20130 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.148.246:44388 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.148.246:44388 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.148.246:44388 - "GET /user_for_choose/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     206.168.32.11:22298 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.32.11:11078 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.32.11:14556 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 685, in __call__
+    await self.default(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 579, in not_found
+    raise HTTPException(status_code=404)
+starlette.exceptions.HTTPException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+INFO:     167.94.138.52:49616 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.52:41390 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.138.52:33870 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 685, in __call__
+    await self.default(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 579, in not_found
+    raise HTTPException(status_code=404)
+starlette.exceptions.HTTPException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+INFO:     179.43.161.135:49522 - "GET / HTTP/1.1" 404 Not Found
+INFO:     94.156.71.235:27804 - "CONNECT 193.149.189.126%3A7227 HTTP/1.1" 404 Not Found
+INFO:     206.168.32.11:59090 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.32.11:6318 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.32.11:7020 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 685, in __call__
+    await self.default(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 579, in not_found
+    raise HTTPException(status_code=404)
+starlette.exceptions.HTTPException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     94.156.71.226:44510 - "CONNECT 45.61.136.175%3A7227 HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 82, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("no request line received")
+h11._util.RemoteProtocolError: no request line received
+INFO:     104.152.52.2:36202 - "GET / HTTP/1.0" 404 Not Found
+INFO:     104.152.52.2:51370 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     104.152.52.2:53484 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS / RTSP/1.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS sip:nm SIP/2.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     209.252.114.170:56582 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 82, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("no request line received")
+h11._util.RemoteProtocolError: no request line received
+INFO:     104.152.52.10:60686 - "GET / HTTP/1.0" 404 Not Found
+INFO:     104.152.52.10:42072 - "GET /nice%20ports%2C/Trinity.txt.bak HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'\x05\x04\x00\x01\x02\x80\x05\x01\x00\x03')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     104.152.52.10:43743 - "OPTIONS / HTTP/1.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS / RTSP/1.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'OPTIONS sip:nm SIP/2.0')
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 79, in maybe_read_from_IDLE_client
+    raise LocalProtocolError("illegal request line")
+h11._util.RemoteProtocolError: illegal request line
+INFO:     199.45.155.19:48122 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.19:32936 - "GET / HTTP/1.1" 404 Not Found
+INFO:     199.45.155.19:32960 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 685, in __call__
+    await self.default(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 579, in not_found
+    raise HTTPException(status_code=404)
+starlette.exceptions.HTTPException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+INFO:     47.243.49.239:58040 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     213.87.149.11:51404 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_95bd7889-cd75-4d5e-b80c-9478839ffd7f.3gp', 'mes_time': 1709126383582, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:51404 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:51404 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 25730) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - олоо
+new_text - лшлл
+INFO:     213.87.149.11:16422 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ca463d3-6fe9-45e9-b6c5-214bc3e86ba8.3gp', 'mes_time': 1709190051193, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:46031 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 49344) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:46031 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ca463d3-6fe9-45e9-b6c5-214bc3e86ba8.3gp', 'mes_time': 1709190051193, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:54575 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:54575 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 54367) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:45681 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 24397) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:45681 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:19786 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:48562 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:58648 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.149.11:22164 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:22164 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:40778 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:40778 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:64390 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:64390 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:51593 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:51593 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:33524 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:33524 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:34816 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:34816 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:28573 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.149.11:9084 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_7ccb16ed-9916-49ea-8771-344c1c229e0a.3gp', 'mes_time': 1709190154749, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:9084 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:5343 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 13878) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     connection closed
+new_text - golosovoe
+INFO:     213.87.149.11:32323 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_c33dbb82-ebfa-4408-a708-1eff6db7be15.3gp', 'mes_time': 1709193168338, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:32323 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:32323 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 58496) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     213.87.149.11:30319 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_c33dbb82-ebfa-4408-a708-1eff6db7be15.3gp', 'mes_time': 1709193168338, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:54993 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:54993 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 65448) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - golosovoe
+INFO:     94.102.56.99:42178 - "GET / HTTP/1.1" 404 Not Found
+INFO:     connection closed
+INFO:     167.94.146.53:49618 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.53:36318 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.94.146.53:38592 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 685, in __call__
+    await self.default(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 579, in not_found
+    raise HTTPException(status_code=404)
+starlette.exceptions.HTTPException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+INFO:     213.87.149.11:26747 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_b6d937e2-4d8a-4bd9-89cd-73aace7861d8.3gp', 'mes_time': 1709193407873, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:26747 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:61727 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 64099) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_9e18c08f-9ca7-41d6-8106-c3875e45dd7b.3gp', 'mes_time': 1709195959790, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:48171 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 7843) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:48171 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:20627 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     213.87.149.11:40797 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_9e18c08f-9ca7-41d6-8106-c3875e45dd7b.3gp', 'mes_time': 1709195959790, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:36996 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:36996 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 11036) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_6156ef4d-c09c-46b9-8888-8004f2392ac9.3gp', 'mes_time': 1709196163234, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:58556 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:12632 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_6156ef4d-c09c-46b9-8888-8004f2392ac9.3gp', 'mes_time': 1709196163234, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:50245 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:50245 - "GET /user_for_choose/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:59613 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_6156ef4d-c09c-46b9-8888-8004f2392ac9.3gp', 'mes_time': 1709196163234, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:59613 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:59613 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 60038) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+new_text - golosovoe
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:44671 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 26253) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:44671 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:44671 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.149.11:30504 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:30504 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:30504 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 6653) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:30504 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:37321 - "GET /user/3a804cde1817-8669-c204-b204-c183317f HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Рома Самофалов ', 'avatar': 'avatar_68cfeee1-1f49-4b08-8756-d6d6456eef50.jpg'}]
+INFO:     213.87.149.11:37321 - "GET /open_chats/3a804cde1817-8669-c204-b204-c183317f?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:37321 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 32330) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:37321 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     206.168.32.3:43048 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.32.3:54244 - "GET / HTTP/1.1" 404 Not Found
+INFO:     206.168.32.3:54898 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/starlette/exceptions.py", line 71, in __call__
+    await self.app(scope, receive, sender)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 685, in __call__
+    await self.default(scope, receive, send)
+  File "/usr/local/lib/python3.10/dist-packages/starlette/routing.py", line 579, in not_found
+    raise HTTPException(status_code=404)
+starlette.exceptions.HTTPException
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/uvicorn/protocols/http/h11_impl.py", line 136, in handle_events
+    event = self.conn.next_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 487, in next_event
+    exc._reraise_as_remote_protocol_error()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 77, in _reraise_as_remote_protocol_error
+    raise self
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 469, in next_event
+    event = self._extract_next_receive_event()
+  File "/usr/local/lib/python3.10/dist-packages/h11/_connection.py", line 411, in _extract_next_receive_event
+    event = self._reader(self._receive_buffer)
+  File "/usr/local/lib/python3.10/dist-packages/h11/_readers.py", line 83, in maybe_read_from_IDLE_client
+    matches = validate(
+  File "/usr/local/lib/python3.10/dist-packages/h11/_util.py", line 91, in validate
+    raise LocalProtocolError(msg)
+h11._util.RemoteProtocolError: illegal request line: bytearray(b'SM')
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.149.11:51642 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:51642 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:51642 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 61076) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:51642 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:58721 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:58721 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:58721 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 61459) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:58721 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:48676 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:48676 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:48676 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 56503) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:48676 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:40454 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:40454 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:40454 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 22590) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:40454 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:2407 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:2407 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:2407 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 63953) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:2407 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:45608 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     213.87.149.11:41629 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:41629 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:41629 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 64206) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:41629 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     180.149.125.166:59811 - "GET / HTTP/1.1" 404 Not Found
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:27049 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:56589 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:37598 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:37598 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 46033) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:37598 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:8192 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:8192 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:8192 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 64404) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:8192 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:28685 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:28685 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:28685 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 17151) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:28685 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:58083 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 37700) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:58083 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:58083 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:43066 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     connection closed
+INFO:     213.87.149.11:7810 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:7810 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:7810 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 51825) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:7810 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:7810 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     connection closed
+INFO:     213.87.149.11:28311 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:28311 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:12429 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:12429 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:58517 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:23373 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:37033 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:37033 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:39955 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=1&pageSize=20 HTTP/1.1" 200 OK
+INFO:     ('213.87.149.11', 51009) - "WebSocket /ws/ad13c221-7623-4999-b9df-260af63180f9" [accepted]
+INFO:     connection open
+INFO:     213.87.149.11:39955 - "GET /get_messages/ad13c221-7623-4999-b9df-260af63180f9?page=2&pageSize=20 HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:39955 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:39955 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+response - [{'chat_id': 'ad13c221-7623-4999-b9df-260af63180f9', 'user_id_1': '2ae5285c4d85-17cb-00e4-6737-c967336e', 'user_id_2': '3a804cde1817-8669-c204-b204-c183317f', 'mes_text': 'audio_mes_159e8be3-d2cd-4713-819f-b9b42f48b65c.3gp', 'mes_time': 1709196875155, 'nickname': 'Qwe Zxc', 'avatar': 'avatar_e3c14642-7f93-4235-94ce-3f6e696fdb3b.jpg'}]
+INFO:     213.87.149.11:39955 - "GET /open_chats/2ae5285c4d85-17cb-00e4-6737-c967336e?page=1&pageSize=5 HTTP/1.1" 200 OK
+INFO:     213.87.149.11:39955 - "GET /user/2ae5285c4d85-17cb-00e4-6737-c967336e HTTP/1.1" 200 OK
+INFO:     connection closed

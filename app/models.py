@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, JSON, Integer, DateTime
+from sqlalchemy import Column, String, JSON, BigInteger
 from app.database import Base
 
 
@@ -24,6 +24,8 @@ class Chat(Base):
     user_id_1 = Column(String)
     user_id_2 = Column(String)
     messages = Column(JSON)
+    mes_text = Column(String)
+    mes_time = Column(BigInteger)
 
 
 class UsersChats(Base):

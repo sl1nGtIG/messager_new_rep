@@ -138,9 +138,12 @@ async def add_message(message: schemas.MessageBase):
             }
             current_messages.append(new_message)
 
+            new_text = 'golosovoe' if message.type == 2 else message.content
+            print(f'new_text - {new_text}')
+
             await cursor.execute(
-                "UPDATE chats SET messages = %s WHERE chat_id = %s",
-                (json.dumps(current_messages), message.id_chat)
+                "UPDATE chats SET messages = %s, mes_text = %s, mes_time = %s WHERE chat_id = %s",
+                (json.dumps(current_messages), new_text, message.time, message.id_chat)
             )
             return {"message": "Сообщение успешно добавлено"}
 
@@ -172,13 +175,15 @@ async def create_chat(data: schemas.ChatCreate):
                 return {"error": "чат уже существует"}
 
             await cursor.execute(
-                "INSERT INTO chats (chat_id, user_id_1, user_id_2, messages) \
-                    VALUES (%s, %s, %s, %s)",
+                "INSERT INTO chats (chat_id, user_id_1, user_id_2, messages, mes_text, mes_time) \
+                    VALUES (%s, %s, %s, %s, %s, %s)",
                 (
                     data.chat_id,
                     data.user_id_1,
                     data.user_id_2,
                     json.dumps([]),
+                    '',
+                    0
                 ),
             )
             # добавляем chat_id в список всех чатов для пользователя
