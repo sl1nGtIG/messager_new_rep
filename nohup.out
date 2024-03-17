@@ -3892,3 +3892,8 @@ INFO:     Stopping reloader process [3176]
 INFO:     82.151.123.95:12783 - "GET /docs/ HTTP/1.1" 307 Temporary Redirect
 INFO:     82.151.123.95:12784 - "GET /docs HTTP/1.1" 200 OK
 INFO:     82.151.123.95:12784 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3664]
+INFO:     Stopping reloader process [3662]

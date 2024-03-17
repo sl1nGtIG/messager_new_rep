@@ -142,7 +142,7 @@ async def add_message(message: schemas.MessageBase):
             current_messages.append(new_message)
 
             new_text = "Голосовое сообщение" if message.type == 2 else message.content
-            # print(f'new_text - {new_text}')
+            print(f'new_text - {new_text}')
 
             await cursor.execute(
                 "UPDATE chats SET messages = %s, mes_text = %s, mes_time = %s WHERE chat_id = %s",
@@ -210,10 +210,12 @@ def elem_of_chats_db(chat):
     user_id_1 = chat[1]
     user_id_2 = chat[2]
     messages = chat[3]
-    return (chat_id, user_id_1, user_id_2, messages)
+    mes_text = chat[4]
+    mes_time = chat[5]
+    return (chat_id, user_id_1, user_id_2, messages, mes_text, mes_time)
 
 
-def chat_construct(user_data, chat_id, user_id_1, user_id_2, messages):
+def chat_construct(user_data, chat_id, user_id_1, user_id_2, mes_text, mes_time):
     firstname = user_data[1]
     secondname = user_data[2]
     avatar = user_data[7]
@@ -223,8 +225,8 @@ def chat_construct(user_data, chat_id, user_id_1, user_id_2, messages):
         chat_id=chat_id,
         user_id_1=user_id_1,
         user_id_2=user_id_2,
-        mes_text=messages[-1]["content"],
-        mes_time=messages[-1]["time"],
+        mes_text=mes_text,
+        mes_time=mes_time,
         nickname=nickname,
         avatar=avatar,
     )
@@ -239,10 +241,9 @@ async def get_chats(user_id: str):
             chats_db_1 = await cursor.fetchall()
 
             if chats_db_1:
-
                 response = []
                 for chat in chats_db_1:
-                    chat_id, user_id_1, user_id_2, messages = elem_of_chats_db(chat)
+                    chat_id, user_id_1, user_id_2, messages, mes_text, mes_time = elem_of_chats_db(chat)
                     # получаем информацию от второго usera
                     await cursor.execute(
                         "SELECT * FROM users WHERE user_id = %s", (user_id_2,)
@@ -250,7 +251,7 @@ async def get_chats(user_id: str):
                     user_data = await cursor.fetchone()
                     if user_data:
                         chat_to_get = chat_construct(
-                            user_data, chat_id, user_id_1, user_id_2, messages
+                            user_data, chat_id, user_id_1, user_id_2, mes_text, mes_time
                         )
                         response.append(chat_to_get.__dict__)
                     else:
@@ -267,7 +268,7 @@ async def get_chats(user_id: str):
 
                 response = []
                 for chat in chats_db_2:
-                    chat_id, user_id_1, user_id_2, messages = elem_of_chats_db(chat)
+                    chat_id, user_id_1, user_id_2, messages, mes_text, mis_time = elem_of_chats_db(chat)
 
                     # получаем информацию от второго usera
                     await cursor.execute(
@@ -276,7 +277,7 @@ async def get_chats(user_id: str):
                     user_data = await cursor.fetchone()
                     if user_data:
                         chat_to_get = chat_construct(
-                            user_data, chat_id, user_id_1, user_id_2, messages
+                            user_data, chat_id, user_id_1, user_id_2, mes_text, mes_time
                         )
                         response.append(chat_to_get.__dict__)
                     else:
