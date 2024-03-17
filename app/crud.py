@@ -12,7 +12,8 @@ async def get_log_in_user(email: str, password: str):
 
             for user in all_users:
                 if user[8] == email and user[9] == password:
-                    return True
+                    user_id = user[0]
+                    return user_id
             return False
 
 
@@ -151,8 +152,6 @@ async def add_message(message: schemas.MessageBase):
 
 
 # Get for Messages
-
-
 async def get_messages(chat_id):
     async with aiopg.connect(**config.db_params) as conn:
         async with conn.cursor() as cursor:
@@ -287,31 +286,6 @@ async def get_chats(user_id: str):
                 return []
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 async def del_chats(data):
     async with aiopg.connect(**config.db_params) as conn:
         async with conn.cursor() as cursor:
@@ -322,7 +296,8 @@ async def del_chats(data):
                     "SELECT * FROM chats WHERE chat_id = %s", (chat_id,)
                 )
                 chat = await cursor.fetchone()
-                user_id_1 = chat[1]; user_id_2 = chat[2]
+                user_id_1 = chat[1]
+                user_id_2 = chat[2]
 
                 # удаление чата
                 await cursor.execute("DELETE FROM chats WHERE chat_id = %s", (chat_id,))
@@ -354,29 +329,6 @@ async def del_chats(data):
                     "UPDATE anotherusers SET another_users_id = %s WHERE user_id = %s",
                     (json.dumps(ids_for_user2), user_id_2),
                 )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ################################################################################

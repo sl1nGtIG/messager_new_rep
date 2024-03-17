@@ -4,6 +4,10 @@ from pydantic import BaseModel
 ################################################################################
 # User schema
 
+class LoginRequest(BaseModel):
+    email: str
+    password: str
+
 
 class UserBase(BaseModel):
     user_id: str
@@ -95,3 +99,7 @@ class DataForCreateChat(BaseModel):
 
 
 ################################################################################
+
+
+class ListForDeleteChat(BaseModel):
+    chatsForDelete: list

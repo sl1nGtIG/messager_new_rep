@@ -6,3 +6,4 @@ __pycache__/
 #ide stuff
 .vscode
 .idea
+nohup.out

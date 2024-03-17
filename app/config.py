@@ -8,7 +8,7 @@
 db_name = "postgres"
 host = "localhost"
 user = "postgres"
-password = "postgres"           #root
+password = "root"           #root
 
 db_params = {
     "host": host,

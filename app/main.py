@@ -23,12 +23,12 @@ def get_db():
 
 
 # login user
-@app.get("/log_in/}")
-async def log_in_user(email: str, password: str):
-    login = await crud.get_log_in_user(email=email, password=password)
+@app.post("/user/login")
+async def log_in_user(data: schemas.LoginRequest = Body(...)):
+    login = await crud.get_log_in_user(email=data.email, password=data.password)
     if login:
-        return dict(status_code=200, message="Пользователь успешно авторизован")
-    return dict(status_code=404, message="Введены неверные логин и пароль")
+        return dict(status=1, idUser=login)
+    return dict(status=10, idUser="not_found")
 
 
 @app.post("/user")
@@ -111,9 +111,9 @@ async def get_chats(
     return {"ChatResponse": response}
 
 
-@app.delete("/chat_delete")
-async def delete_chats(chat_ids: List[str] = Body(...)):
-    delchats = await crud.del_chats(chat_ids)
+@app.post("/chat_delete")
+async def delete_chats(chat_ids: schemas.ListForDeleteChat = Body(...)):
+    delchats = await crud.del_chats(chat_ids.chatsForDelete)
     if isinstance(delchats, dict) and "error" in delchats:
         raise HTTPException(status_code=400, detail=delchats["error"])
     return dict(status_code=200, message="Все чаты успешно удалены")
